@@ -1,17 +1,80 @@
-* {
+@font-face {
+    font-family: Plus Jakarta Sans;
+    src: url(fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(fonts/PoetsenOne-Regular.ttf);
+}
+
+*{ 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-box: box-sizing;
+}
+
+body { 
+   background-color: #08090B ;
+}
+
+.logo__place { 
+    cursor: pointer;
+}
+
+.logo__place a{
+    display: flex;
+    align-items: center;
+}
+
+.logo__text  { 
+    color: #ffff;
+    font-family: PoetsenOne; 
+    letter-spacing: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 
 
-ul { 
+
+.nav__links, .contact__link li, a { 
+    font-family: Plus Jakarta Sans;
+    font-weight: 300;
+    font-size: 24px;
+    color: #ffff;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    flex-wrap: wrap; 
+}
+
+.nav__links { 
     list-style: none;
 }
 
-li { 
-    display: flex;
-    justify-content: flex-end;
+.nav__links li { 
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.nav__links li a, .contact__link span { 
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover, .contact__link span:hover { 
+    color:aqua
+}
+
+.header__line { 
+    color:white;
+    margin: 0 5%;
+    opacity: 50%;
 }
