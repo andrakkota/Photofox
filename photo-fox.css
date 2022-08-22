@@ -8,27 +8,27 @@
     src: url(fonts/PoetsenOne-Regular.ttf);
 }
 
-*{ 
+* {
     margin: 0;
     padding: 0;
 }
 
-body { 
-   background-color: #08090B ;
+body {
+    background-color: #08090B;
 }
 
-.logo__place { 
+.logo__place {
     cursor: pointer;
 }
 
-.logo__place a{
+.logo__place a {
     display: flex;
     align-items: center;
 }
 
-.logo__text  { 
+.logo__text {
     color: #ffff;
-    font-family: PoetsenOne; 
+    font-family: PoetsenOne;
     letter-spacing: 5px;
     font-size: 24px;
     text-transform: uppercase;
@@ -37,7 +37,9 @@ body {
 
 
 
-.nav__links, .contact__link li, a { 
+.nav__links,
+.contact__link li,
+a {
     font-family: Plus Jakarta Sans;
     font-weight: 300;
     font-size: 24px;
@@ -49,80 +51,83 @@ body {
     align-items: center;
 }
 
-header { 
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 5%;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-.nav__links { 
+.nav__links {
     list-style: none;
 }
 
-.nav__links li { 
+.nav__links li {
     display: inline-block;
     padding: 0 40px;
 }
 
-.nav__links li a, .contact__link span { 
+.nav__links li a,
+.contact__link span {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover, .contact__link span:hover { 
-    color:aqua
+.nav__links li a:hover,
+.contact__link span:hover {
+    color: aqua
 }
 
-.active__link { 
+.active__link {
     font-weight: 700;
 }
 
-.header__line { 
-    color:white;
+.header__line {
+    color: white;
     margin: 0 5%;
     opacity: 50%;
     margin-bottom: 3%;
 }
 
-.contact__link a{
+.contact__link a {
     display: flex;
     align-items: center;
- }
+}
 
- .contact__link span { 
+.contact__link span {
     margin: 0 10px;
- }
+}
 
-.main__page { 
+.main__page {
     text-align: center;
 }
 
-.photo__container { 
+.photo__container {
     width: 100%;
     display: relative;
     z-index: 2;
 }
 
-.main__text { 
+.main__text {
     z-index: 1;
-    color:white;
+    color: white;
     margin-top: -185px;
     margin-left: 4%;
 }
 
-.main__text h1, .main__text span {
+.main__text h1,
+.main__text span {
     font-family: Plus Jakarta Sans;
     text-transform: uppercase;
-    
+
 }
 
-.main__text h1 { 
+.main__text h1 {
     font-size: 100px;
     letter-spacing: 40px;
 }
 
-.main__text span { 
-   font-size: 28px;
-   margin-left: -1.8%;
+.main__text span {
+    font-size: 28px;
+    margin-left: -1.8%;
 }
