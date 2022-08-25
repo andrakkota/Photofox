@@ -18,6 +18,8 @@ body {
     background-color: #08090B;
 }
 
+
+                /* Навигация сайта  */
 .logo__place {
     cursor: pointer;
 }
@@ -99,6 +101,9 @@ a {
     margin: 0 10px;
 }
 
+
+                    /* Заголовок страницы */
+
 .main__page {
     text-align: center;
 }
@@ -137,6 +142,9 @@ a {
     margin-left: -1.8%;
 }
 
+
+
+                    /* "Типо" слайдер  */
 .fake__slider  ul { 
     display: flex;
     justify-content: center;
@@ -189,6 +197,9 @@ a {
     transform: rotate(999999360deg);
 }
 
+
+                    /* Информационный блок */
+
 .base__link_place {
     margin: 3% 10% 0 10%;
     position: relative;
@@ -226,7 +237,7 @@ a {
     float:right;
 }
 
-
+                /* Яркий инфо блок */
 
 .bright__block { 
     position: relative;
@@ -268,10 +279,11 @@ a {
 
 .dinner__links a { 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .dinner__links span { 
+    color: #000;
 }
 
 .second__part p {
@@ -281,7 +293,7 @@ a {
     font-weight: 500;  
     margin: 29px 0;
     color: #000;
-    display:block;
+    display: inline-block;
     transition: all ease 0.3s;
 }
 
@@ -290,8 +302,8 @@ a {
     transition: all ease 0.3s;
 }
 
-.dinner__links p {
-    transition: all ease 0.3s;
+.dinner__links p:hover {
+    transform: scale(1.1);
 }
 
 .dinner__arrow { 
@@ -335,6 +347,11 @@ a {
     transform: scale(1.1);
     box-shadow: 5px 6px 1px 2px rgb(133, 22, 153);
 }
+
+
+
+
+                    /* Блок с работами */
 
 .selected__works {
     margin: 5% 10%;
@@ -384,14 +401,7 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
+                 /* Блок с кнопкой  */
 
 .block__button{
     background-color:#F1D047;
@@ -443,4 +453,10 @@ a {
 .block__second_frame a:hover { 
     transform: scale(1.1);
     box-shadow: 10px 6px 1px 2px rgb(133, 22, 153);
+}
+
+.footer__line {
+    color: rgb(214, 214, 214);
+    margin: 0 10% 2% 10%;
+    opacity: 50%;
 }
