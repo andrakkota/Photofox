@@ -52,11 +52,11 @@ a {
     align-items: center;
 }
 
-header {
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 5%;
+    padding: 0 10%;
     flex-wrap: wrap;
 }
 
@@ -85,7 +85,7 @@ header {
 
 .header__line {
     color: rgb(214, 214, 214);
-    margin: 0 4.5%;
+    margin: 0 10%;
     opacity: 50%;
     margin-bottom: 3%;
 }
@@ -155,7 +155,7 @@ header {
 .left__arrow { 
     display: block;
     position: absolute;
-    top: 94%;
+    top: 84%;
     left: 11%;
     display: flex;
     justify-content: space-between;
@@ -165,7 +165,7 @@ header {
 .right_arrow { 
     display: block;
     position: absolute;
-    top: 94%;
+    top: 84%;
     left: 85%;
     display: flex;
     justify-content: space-between;
@@ -234,8 +234,10 @@ header {
     background-color: #F1D047;
     padding: 3% 1%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
+
+
 
 .first__part h2{
     font-size: 72px;
@@ -247,28 +249,49 @@ header {
 }
 
 .first__part { 
-    margin-left: 4%;
+    width: 50%;
+    margin-left: 2%;
 }
 
 
 
 .second__part {
-    margin-right: 4%;
+    width: 50%;
+    margin-right: 2%;
 }
 
+.dinner__links { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dinner__links a { 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dinner__links span { 
+}
 
 .second__part p {
     font-size: 22px;
     letter-spacing: 3px;
     font-family: Plus Jakarta Sans;
     font-weight: 500;  
-    margin: 32px 0;
+    margin: 29px 0;
     color: #000;
     display:block;
+    transition: all ease 0.3s;
 }
 
 .dinner__links { 
     margin-top: 15%;
+    transition: all ease 0.3s;
+}
+
+.dinner__links p {
+    transition: all ease 0.3s;
 }
 
 .dinner__arrow { 
@@ -310,6 +333,114 @@ header {
 
 .about__button:hover{ 
     transform: scale(1.1);
-    box-shadow: 5px 6px 1px 2px rgb(237, 5, 5);
+    box-shadow: 5px 6px 1px 2px rgb(133, 22, 153);
 }
 
+.selected__works {
+    margin: 5% 10%;
+}
+
+
+.selected__works h3 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Plus Jakarta Sans;
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: 30px;
+}
+
+
+.allworks__button { 
+    margin: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition: all ease 0.3s;
+}
+
+.allworks__button span { 
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Plus Jakarta Sans ;
+    color: #000;
+}
+
+.allworks__button a  { 
+    background-color: #fff;
+    padding: 2% 3%;
+    border-radius: 55px;
+    transition: all ease 0.3s;
+}
+
+.allworks__button img { 
+    margin: 0 10px;
+}
+
+.allworks__button a:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 6px 1px 2px rgb(133, 22, 153);
+}
+
+
+
+
+
+
+
+
+
+
+
+.block__button{
+    background-color:#F1D047;
+    margin: 3% 10%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 4%;
+}
+
+.block__first_frame { 
+    width:75%;
+}
+
+.block__first_frame h3 { 
+    text-transform: uppercase;
+    font-family: Plus Jakarta Sans ;
+    font-size: 72px;
+}
+
+.block__second_frame { 
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .block__second_frame a{
+    display: block;
+    padding: 3% 7%;
+    background-color: #000;
+    border-radius: 56px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.work__button span{ 
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.12em;  
+}
+
+.work__button img { 
+    margin: 0 10px;
+}
+
+.block__second_frame a:hover { 
+    transform: scale(1.1);
+    box-shadow: 10px 6px 1px 2px rgb(133, 22, 153);
+}
