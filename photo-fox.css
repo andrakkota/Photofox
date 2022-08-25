@@ -369,14 +369,54 @@ a {
 }
 
 
+.picture__grid { 
+    margin: 5% 5%;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.deer-box, .dome-box, .leopard-box{ 
+    margin: 0px 40px 40px 40px;
+}
+
+.dubai-box img  {
+    width: 1fr;
+}
+
+.greenland-box, .bug-box { 
+    margin: -60px 0 0 0;
+}
+
+.birds-box, .aeriel-box { 
+    margin: -150px 0 0 0;
+}
+
+.flex-word { 
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Plus Jakarta Sans;
+}
+
+.flex-word p { 
+    margin: 0 40px;
+}
+
+
+
 .allworks__button { 
-    margin: 3% 0;
+    margin: 3% 0 0 3%;
     display: flex;
     justify-content: center;
     align-items:center;
     transition: all ease 0.3s;
 }
-
 .allworks__button span { 
     font-size: 20px;
     font-weight: 500;
